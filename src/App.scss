@@ -1,0 +1,80 @@
+body{
+  overflow: hidden;
+  background: rgb(254,254,254);
+  background: linear-gradient(105deg, rgba(254,254,254,1) 0%, rgba(88,101,242,1) 100%);
+}
+
+@font-face {
+  font-family: logo-font;
+  src: url("../public/fonts/Billabong.ttf");
+}
+
+#logo-area{
+  color : #9E4784;
+  text-align: start;
+  font-family: logo-font;
+  font-size: 3.7rem;
+  margin-top: 3vh;
+  padding: 2vh 8.5vw;
+  span{
+    color : #37306B;
+  }
+}
+
+#main-area {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#input-area{
+  padding: 0 5vw;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#display-area{
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 15vw;
+  margin-top: 7vh;
+  min-height: 55vh;
+  max-height: 55vh;
+
+  p{
+    border: 1px solid white;
+    border-left: none;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 4vh 1vw;
+    background-color: rgb(60, 72, 107,0.55);
+    color : #F0F0F0;
+    font-size: 1.1rem;
+    max-width: 55vw;
+  }
+}
+
+.mini-icon{
+  vertical-align: bottom;   
+  margin-left: 2rem;
+}
+
+#display-img{
+  max-width: 250px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#weather-details{
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 2.2rem;
+}
