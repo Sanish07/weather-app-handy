@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/weather-app-handy/static/css/main.121ff4c5.css",
+    "main.js": "/weather-app-handy/static/js/main.e32d56a2.js",
+    "static/js/787.0a683ba5.chunk.js": "/weather-app-handy/static/js/787.0a683ba5.chunk.js",
+    "static/media/Billabong.ttf": "/weather-app-handy/static/media/Billabong.0e94b13a1cfb505ff271.ttf",
+    "index.html": "/weather-app-handy/index.html",
+    "main.121ff4c5.css.map": "/weather-app-handy/static/css/main.121ff4c5.css.map",
+    "main.e32d56a2.js.map": "/weather-app-handy/static/js/main.e32d56a2.js.map",
+    "787.0a683ba5.chunk.js.map": "/weather-app-handy/static/js/787.0a683ba5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.121ff4c5.css",
+    "static/js/main.e32d56a2.js"
+  ]
+}
